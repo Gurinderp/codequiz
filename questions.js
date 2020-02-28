@@ -34,17 +34,16 @@ console.log(questions[i].title)
 console.log(questions[i].choices)
 }
 
-function displayQuestion(){
-
-}
-
-
 questions[1].choices.forEach(element => console.log(element))
 // prompts the questions but doesn't display them
 function getQuestion(){
+    var questSelect = document.getElementById("question");
+    var answers = document.getElementById("choices")
+    var startBtn = document.getElementById("start")
     
     for(var i = 0; i < questions.length; i++){
         var questionShown = window.prompt(questions[i].title)
+        document.getElementById("question").append(questions[i].title)
         if (questionShown === questions[i].answer){
             score++;
           console.log("Correct!")
