@@ -29,6 +29,26 @@ var questions = [
         answer: "Green"
     },
 ];
+
+const questionOne = () =>{
+    const questOne = document.getElementById("questionOne");
+    questOne = questions[0].title;
+    let choiceOne = document.getElementById("choiceOne");
+    choiceOne = questions[0].choices[0]
+    choiceTwo = questions[0].choices[1]
+    choiceThree = questions[0].choices[2]
+    choiceFour = questions[0].choices[3]
+}
+
+const questTwo = document.getElementById("questionTwo");
+questTwo = questions[1].title;
+
+const questThree = document.getElementById("questionThree");
+questThree = questions[2].title;
+
+const questFour = document.getElementById("questionFour");
+questFour = questions[3].title;
+
 for(var i = 0; i < questions.length; i++){
 console.log(questions[i].title)
 console.log(questions[i].choices)
