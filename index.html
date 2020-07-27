@@ -19,7 +19,7 @@
 					Try to answer each answer correctly. The questions will be
 					randomized and the score will be given at the end.
 				</h4>
-				<button id="startButton" onclick="startQuiz()">
+				<button id="start-btn" onclick="startQuiz()">
 					Start Quiz
 				</button>
 			</div>
@@ -42,10 +42,12 @@
 			<div id="score-page">
 				<h1>All Done!</h1>
 				<h4 id="scoreResult">Score:</h4>
-				<label for="name">Enter initals</label>
-				<br />
-				<input type="text" required />
-				<input type="submit" value="submit" />
+				<div class="user-name">
+					<label for="name">Enter initals</label>
+					<br />
+					<input type="text" required />
+					<input type="submit" value="submit" />
+				</div>
 			</div>
 
 			<div id="highscores">
