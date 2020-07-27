@@ -8,51 +8,38 @@
 			name="description"
 			content="Web site created using create-react-app"
 		/>
-		<title>Code Quiz</title>
+		<title>Coding Quiz</title>
 		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body>
-		<div className="container">
-			<div id="startPage" className="">
-				<h1>Code Quiz Challenge</h1>
+		<div class="container">
+			<div class="landing-page">
+				<h1>Coding Quiz Challenge</h1>
 				<h4>
-					Try to answer each answer correctly. There are five
-					questions.
+					Try to answer each answer correctly. The questions will be
+					randomized and the score will be given at the end.
 				</h4>
 				<button id="startButton" onclick="startQuiz()">
 					Start Quiz
 				</button>
 			</div>
 
-			<div id="timer" className="timer">
-				Time Left: <span id="timeRem">0</span>
+			<div id="timer" class="timer">
+				Time Left: <span id="time-remaining">0</span>
 			</div>
 
-			<div id="questionList">
-				<h1 id="question"></h1>
-				<button
-					id="choiceOne"
-					className="choices"
-					onclick="checkAnswer"
-				></button>
-				<button
-					id="choiceTwo"
-					className="choices"
-					onclick="checkAnswer"
-				></button>
-				<button
-					id="choiceThree"
-					className="choices"
-					onclick="checkAnswer"
-				></button>
-				<button
-					id="choiceFour"
-					className="choices"
-					onclick="checkAnswer"
-				></button>
+			<div class="questionList">
+				<h1 class="question"></h1>
+				<button id="choiceOne" class="choices"></button>
+				<button id="choiceTwo" class="choices"></button>
+				<button id="choiceThree" class="choices"></button>
+				<button id="choiceFour" class="choices"></button>
+			</div>
+			<div>
+				<button id="answer-check" onclick="">Submit</button>
 			</div>
 
-			<div id="endPage" className="hidden">
+			<div id="score-page">
 				<h1>All Done!</h1>
 				<h4 id="scoreResult">Score:</h4>
 				<label for="name">Enter initals</label>
@@ -61,14 +48,13 @@
 				<input type="submit" value="submit" />
 			</div>
 
-			<div id="highscore" className="hidden">
+			<div id="highscores">
 				<h1>Highscores</h1>
-				<ul className="previousScores"></ul>
-				<button>Back</button>
+				<ul class="all-scores"></ul>
+				<button id="return-btn" onclick="">Back to Score</button>
 			</div>
 		</div>
 		<script src="index.js"></script>
-		<script src="logic.js"></script>
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
