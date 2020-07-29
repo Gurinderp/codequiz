@@ -12,12 +12,16 @@
 <h3>Gurinderpreet Singh</h3>
 <h3>This was a solo project completed on my own. Moving forward, this project will be open for contributions from other developers. Aspiring developers are more than welcome to use this project as a tool to learn.</h3>
 <h1>Challenges</h1>
-<h3></h3>
+<ul>
+<li>Creating this app as a beginner made simple functions seem impossible.</li>
+<li>Designing a path for development.</li>
+<li>Designing clean UI that would correspond well with events.</li>
+</ul>
 <h1>Future Goals</h1>
 <h3>Future goals of this project would include various difficulties and a variety of topics with their own respective questions.</h3>
+<h3></h3>
 <!-- <ul>
 <li></li>
 <li></li>
 <li></li>
 </ul> -->
-<h3></h3>
