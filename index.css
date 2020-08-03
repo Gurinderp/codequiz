@@ -1,7 +1,33 @@
+body{
+    color: white;
+    background-color: rgb(160, 3, 160);
+}
+
 .container {
+    width: 70%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: aqua;
+    text-align: center;
+    height: 80vh;
 }
 
 .landing-page {
+    background-color: rgb(160, 3, 160);
+    border: 2px solid black;
+
+}
+
+button {
+    border: 3px solid rgb(78, 0, 78);
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: auto;
+    font-size: 1.3vw;
+    font-weight: bold;
+    background-color: rgb(160, 3, 160);
+    overflow: auto;
 }
 
 #start-btn {
@@ -38,4 +64,8 @@
 }
 
 #return-btn {
+}
+
+.hide {
+    display: none;
 }
