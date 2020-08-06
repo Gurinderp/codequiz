@@ -10,7 +10,7 @@ body {
   background-color: aqua;
   text-align: center;
   height: auto;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 .landing-page {
@@ -45,12 +45,36 @@ button {
 }
 
 .questionList {
+  box-shadow: 0px 0px 25px 2px black;
+  background-color: rgb(177, 2, 177);
 }
 
 .question {
+  background-color: rgb(177, 2, 177);
+  height: 15vh;
+  width: 45vw;
+  transform: translate(-50%);
+  margin-left: 50%;
+  padding-top: 4%;
+  font-size: 2.8vw;
 }
 
 .choices {
+  width: 23vw;
+  height: 16vh;
+  margin-bottom: 0%;
+  margin-top: 4%;
+}
+
+.right-choice {
+  margin-left: 7%;
+}
+
+.answer-check {
+}
+.answer-check button {
+  margin-top: 3%;
+  height: 7vh;
 }
 
 #answer-check {
